@@ -13,8 +13,8 @@ with open("README.md", "r") as fh:
 setuptools.setup(
         name = "Lambdata-veritaem",
         version="0.0.1",
-        author="veritaem".
-        description="small collection of helper functions",
+        author="veritaem",
+        description="A small collection of helper functions", 
         long_description=LONG_DESCRIPTION,
         long_description_content_type="text/markdown",
         url="https://github.com/veritaem/Lambdata",

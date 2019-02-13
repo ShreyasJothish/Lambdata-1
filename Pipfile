@@ -9,9 +9,6 @@ twine = "*"
 [packages]
 numpy = "*"
 pandas = "*"
-defaultdict = "*"
-train-test-split = "*"
-collections = "*"
 sklearn = "*"
 
 [requires]

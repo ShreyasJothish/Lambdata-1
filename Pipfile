@@ -9,6 +9,10 @@ twine = "*"
 [packages]
 numpy = "*"
 pandas = "*"
+defaultdict = "*"
+train-test-split = "*"
+collections = "*"
+sklearn = "*"
 
 [requires]
 python_version = "3.6"

@@ -4,14 +4,16 @@ import setuptools
 
 REQUIRED = [
     "numpy",    
-    "pandas"
+    "pandas",
+    "defaultdict",
+    "train_test_split"
 ]
 
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
-        name = "Lambdata-veritaem",
+        name = "Lambdata_veritaem",
         version="0.0.1",
         author="veritaem",
         description="A small collection of helper functions", 

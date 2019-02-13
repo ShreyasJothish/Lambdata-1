@@ -1,7 +1,7 @@
 import numpy
 import pandas
 from sklearn.model_selection import train_test_split
-
+from collections import defaultdict
 
 def check_nulls(df):
     # checks for instances of nulls in a pandas DataFrame
@@ -29,3 +29,5 @@ class Customer:
     self.age = age
     self.bill = bill
     self.pay_method = pay_method
+
+

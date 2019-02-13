@@ -23,4 +23,9 @@ def three_way_split(
             random_state=random_state, shuffle=shuffle)
         return X_train, X_val, X_test, y_train, y_val, y_test
 
-
+class Customer:
+    def __init__(self, name, age, bill, pay_method):
+    self.name = name
+    self.age = age
+    self.bill = bill
+    self.pay_method = pay_method

@@ -5,7 +5,6 @@ import setuptools
 REQUIRED = [
     "numpy",    
     "pandas",
-    "defaultdict",
     "train_test_split"
 ]
 

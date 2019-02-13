@@ -5,7 +5,7 @@ import setuptools
 REQUIRED = [
     "numpy",    
     "pandas",
-    "train_test_split"
+    "sklearn"
 ]
 
 with open("README.md", "r") as fh:
